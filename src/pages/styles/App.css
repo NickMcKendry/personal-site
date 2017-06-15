@@ -1,0 +1,31 @@
+.about-me {
+  height: 100vh;
+  font-size: 1em;
+}
+
+.title-text {
+  margin-top: 2.3em;
+}
+
+.change-text {
+  color: rgb(23, 255, 154)
+
+}
+
+a {
+  color: rgb(23, 255, 154)
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(115, 243, 155)
+}
+
+a:visited {
+  color: rgb(115, 243, 155)
+
+}
