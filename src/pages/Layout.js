@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const titles = [
-  "React Guru", "JavaScript Developer", "Full Stack Developer", "Galvanize Grad", "Car Nerd", "Node Monster", "Agile Worker", "JavaScript Ninja", "Explorer of Knowledge",
+   "JavaScript Developer", "Full Stack Developer", "Galvanize Grad", "Car Nerd", "Agile Worker", "React Developer",
 ]
 
 
@@ -22,16 +22,16 @@ export default class Layout extends Component {
 
   render() {
     setTimeout(() => {
-      const i = Math.floor(Math.random() * 9)
+      const i = Math.floor(Math.random() * 6)
       this.setState({title: titles[i]})
-    }, 3000)
+    }, 6000)
 
 
 
 
 
     return (
-      <div className="container">
+      <div className="container head">
         <Header title={this.state.title} />
       </div>
     );

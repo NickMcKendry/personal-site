@@ -14,8 +14,8 @@ export default class Projects extends Component {
             <h3><a href="https://github.com/NickMcKendry/sound_flick">GitHub Link </a></h3>
           </div>
           <div className="well col-md-4">
-            <h2><a href="https://agile-overload.herokuapp.com/">Agile Overlod</a></h2>
-            <p>Agile Overload is a multiplayer team building game based on Agile-workflow concepts. Each player gets their own set of commands and buttons and you must work as a team to race the timer before funding runs out. The technologies we used are JavaScript, Web Sockets, PostgreSQL, Express, Knexjs, NodeJs, HBS, and Bcrypt.</p>
+            <h2><a href="https://agile-overload.herokuapp.com/">Agile Overload</a></h2>
+            <p>Agile Overload is a multiplayer team-building game based on Agile-workflow concepts. Each player gets their own set of commands and buttons and you must work as a team to race the timer before funding runs out. The technologies we used are JavaScript, socket.io, PostgreSQL, Express, Knexjs, NodeJs, HBS, and Bcrypt.</p>
             <h3><a href="https://github.com/ES46/overload-game">GitHub Link </a></h3>
           </div>
           <div className="well col-md-4">

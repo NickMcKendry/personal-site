@@ -5,6 +5,7 @@
 
 .title-text {
   margin-top: 2.3em;
+  color: white;
 }
 
 .change-text {
@@ -52,3 +53,16 @@ a:visited {
   bottom: 3.5em;
 
 }*/
+
+
+.head {
+  background-image: url('./dgrid.png');
+  background-size: cover;
+  height: 19em;
+}
+
+.page-header {
+    padding-bottom: 9.5px;
+    margin: 42px 0 21px;
+
+  }

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './components/Header'
 import Layout from './pages/Layout';
 import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects'
