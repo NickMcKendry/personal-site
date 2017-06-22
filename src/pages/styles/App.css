@@ -57,7 +57,7 @@ a:visited {
 
 .head {
   background-image: url('./dgrid.png');
-  background-size: cover;
+  background-size: contain;
   height: 19em;
 }
 
@@ -66,3 +66,7 @@ a:visited {
     margin: 42px 0 21px;
 
   }
+
+.resume-img {
+  padding-top: 1.5em;
+}

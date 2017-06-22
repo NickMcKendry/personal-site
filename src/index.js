@@ -20,7 +20,8 @@ ReactDOM.render(
   <Router>
     <div>
       <Route path='/' component={Layout} />
-      <Route path='/AboutMe' component={AboutMe} />
+      <Route exact path='/' component={AboutMe} />
+      <Route path='/aboutme' component={AboutMe} />
       <Route path='/Projects' component={Projects} />
       <Route path='/Resume' component={Resume} />
       <Route path='/ContactMe' component={ContactMe} />
